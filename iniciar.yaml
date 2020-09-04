@@ -1,0 +1,14 @@
+version: "3.7"
+services: 
+    models:
+        build: 
+            "./models"
+        container_name: banco
+    controllers:
+        build:
+            "./controllers"
+        container_name: app
+    views:
+        build: 
+            "./views"
+        container_name: front
