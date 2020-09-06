@@ -4,11 +4,18 @@ services:
         build: 
             "./models"
         container_name: banco
+        volumes: 
+            - ./models/data:var/lib/arangodb
+        restart: always
+
     controllers:
         build:
             "./controllers"
         container_name: app
+        restart: always
+    
     views:
         build: 
             "./views"
         container_name: front
+        restart: always
