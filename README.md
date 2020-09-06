@@ -6,7 +6,7 @@ Repositorio para o projeto integrado do 6 semestre de ciências da computação
 ## Como executar:
 - Instale o Docker
 - Instale o Docker-Compose
-- Rode no terminal o comando: docker-compose up iniciar.yaml
+- Rode no terminal o comando: docker-compose up -d
 ## Controllers
 ### Descrição:
 - 
