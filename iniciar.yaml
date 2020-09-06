@@ -1,21 +1,25 @@
 version: "3.7"
 services: 
-    models:
-        build: 
-            "./models"
-        container_name: banco
+
+    model:
+        build: "./models"
+        container_name: arangodb_conatiner
         volumes: 
             - ./models/data:var/lib/arangodb
         restart: always
-
-    controllers:
-        build:
-            "./controllers"
-        container_name: app
+    controller:
+        build: "./controllers"
+        container_name: java_container
         restart: always
-    
-    views:
-        build: 
-            "./views"
-        container_name: front
+        depends_on:
+            - model
+    view:
+        build: "./views"
+        container_name: vueJs_container
         restart: always
+        ports: 
+            - "80:80"
+        depends_on:
+            - model 
+            - controller
+        

@@ -1,1 +1,1 @@
-FROM JDK 11
+FROM JDK:latest
