@@ -1,9 +1,12 @@
-
 /* map */
-
-
+.map-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .map-page hr{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     width: 100px;
 }
 
@@ -12,15 +15,22 @@
 }
 
 .map-page .ship {
+    width: 60%;
+    margin-bottom: 10px;
     background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .map-page .ship h1, p {
     margin-left: 20px;
     color: black;
+    font-family:  'Nunito', sans-serif;
 }
 
 #mapid {
-    width: 100%;
+    width: 60%;
     height: 60vh;
 }
