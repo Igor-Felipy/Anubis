@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúbis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+    <div class="all">
+        <div class="menu">
+            <div class="menu-pages">
+                <ul>
+                    <li><button>HOME</button></li>
+                    <li><button>SERVIÇOS</button></li>
+                    <li><button>NOSSO TRABALHO</button></li>
+                    <li><button>QUEM SOMOS</button></li>
+                    <li><button>CONTATO</button></li>
+                    <li><button>AGENDA ONLINE</button></li>
+                </ul>
+            </div>
+            <div class="menu-profile">
+                <button><span>I</span></button>
+            </div>
+        </div>
+    
+        <div class="map-page">
+            <h1>ACOMPANHE SUA ENTREGA</h1>
+            <hr>
+
+            <div class="ship">
+                <h1>Remetente: Nome</h1>
+                <p>Local de entrega: local</p>
+                <p>Status: a entrega</p>
+            </div>
+            <div id="mapid"></div>
+
+        </div>
+    </div>
+    <script src="/scripts/map.js"></script>
+</body>
+</html>

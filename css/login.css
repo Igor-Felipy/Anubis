@@ -1,0 +1,55 @@
+
+/* login page */
+.login-form {
+    margin-top: 10rem;
+    width: 23rem;
+    text-align: center;
+    background-color: white;
+    border: none;
+    /* border-style: solid; */
+    /* border-color: black; */
+    border-radius: 5%;
+}
+
+.login-form * {
+    font-family: 'Nunito', sans-serif;
+}
+
+.login-form img {
+    width: 200px;
+    height: 200px;
+}
+
+.login-form h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-login-input input[type=text], input[type=password]{
+    display: block;
+    height: 25px;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.login-form .form-login-label {
+    margin: 10px;
+}
+
+.login-form button {
+    background-color: #2f2e2e;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 40%;
+    height: 30px;
+}
+
+.login-form hr {
+    margin: 10px;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: black;
+}

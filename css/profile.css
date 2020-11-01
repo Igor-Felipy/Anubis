@@ -1,0 +1,124 @@
+
+/* profile */
+.form-profile * {
+    font-family:  'Nunito', sans-serif;
+}
+.form-profile {
+    margin-top: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-profile .name-schedules {
+    width: 200px;    
+    margin-right: 5vw;
+}
+
+.form-profile .name {
+    background-color: white;
+    height: 15vh;
+    display: grid;
+    grid-row: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-profile .name button{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border: none;
+}
+
+.form-profile .schedule {
+    margin-top: 3vh;
+    height: 15vh;
+}
+
+.form-profile .schedule button {
+    display: block;
+    height: 3vh;
+    width: 200px;
+    border: none;
+    background-color: #2f2e2e;
+    color: white;
+    cursor: pointer;
+}
+
+.form-profile .schedule button + button {
+    background-color: white;
+    color: black;
+}
+
+.form-profile .my_account {
+    width: 35rem;
+    background-color: white;
+    padding: 20px;
+}
+
+.form-profile .my_account form .form1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-profile .my_account form .field {
+    width: 30rem;
+}
+
+.form-profile .my_account form .field .sub-field {
+    margin: 10px ;
+}
+.form-profile .my_account form .field .sub-field input{
+    display: block;
+    width: 16rem;
+    height: 2rem;
+}
+
+
+.form-profile .label {
+    margin: 5px;
+    text-align: left;
+}
+
+.form-profile .my_account form .form2 .big-field input{
+    display: block;
+    width: 34rem;
+    height: 2rem;
+}
+
+.form-profile .my_account form .form2 .big-field label{
+    display: block;
+}
+
+.form-profile .my_account form .form2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+.form-profile .my_account form .form3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.form-profile .my_account form button {
+    height: 2rem;
+    width: 34rem;
+    background-color: #2f2e2e;
+    color: white;
+    border: none;
+    margin: 5px;
+    margin-top: 25px;
+
+}
+
+.form-profile .my_account .label {
+    margin-top: 100px;
+}
+

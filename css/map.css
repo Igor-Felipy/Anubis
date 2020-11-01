@@ -1,0 +1,26 @@
+
+/* map */
+
+
+.map-page hr{
+    margin-bottom: 100px;
+    width: 100px;
+}
+
+.map-page h1 {
+    color: white;
+}
+
+.map-page .ship {
+    background-color: teal;
+}
+
+.map-page .ship h1, p {
+    margin-left: 20px;
+    color: black;
+}
+
+#mapid {
+    width: 100%;
+    height: 60vh;
+}
