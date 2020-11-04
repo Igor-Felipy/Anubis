@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #8c2727;
+    background-repeat: no-repeat;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders h1 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.orders hr {
+    width: 10%;
+}
+
+.order {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #b0aaa9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 5px;
+}
+
+.order h1, p, h3{
+    color: black;           
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+}
+
+.order a{
+    text-decoration: none;
+    color: black;
+}
+
+.order p {
+    font-size: 15px;
+}
+
+.order .chunck {
+    margin-bottom: 20px;
+}

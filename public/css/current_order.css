@@ -1,0 +1,105 @@
+/* map */
+.map-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map-page hr{
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.map-page h1 {
+    color: white;
+}
+
+.map-page .ship {
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-page .ship h1, p {
+    margin-left: 20px;
+    color: black;
+    font-family:  'Nunito', sans-serif;
+}
+
+
+.order {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #b0aaa9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 5px;
+}
+
+.order h1, p, h3{
+    color: black;           
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+}
+
+.order a{
+    text-decoration: none;
+    color: black;
+}
+
+.order p {
+    font-size: 15px;
+}
+
+.order .chunck {
+    margin-bottom: 20px;
+}
+
+.map-and-descriptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+}
+
+.descriptions {
+    width: 11vw;
+    height: 60vh;
+    background-color: white;
+    color: black;
+}
+
+.descriptions hr {
+    width: 100%;
+}
+
+.descriptions .number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.descriptions .number h1, p {
+    color: black;
+    font-family: 'Nunito', sans-serif;    
+}
+
+.descriptions .local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-and-descriptions #mapid {
+    width: 30vw;
+    height: 60vh;
+}

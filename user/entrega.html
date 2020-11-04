@@ -13,7 +13,7 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
     <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/map.css">
+    <link rel="stylesheet" href="../public/css/current_order.css">
 </head>
 <body>
     <div class="all">
@@ -31,7 +31,7 @@
         </div>
     
         <div class="map-page">
-            <h1>ACOMPANHE SUA ENTREGA</h1>
+            <h1>ENTREGA</h1>
             <hr>
 
             <div class="order">
@@ -57,11 +57,30 @@
                 <p><a href="">Mais detalhes...</a></p>
             </div>
 
-            
-            <div id="mapid"></div>
-
+            <div class="map-and-descriptions">
+                <div class="descriptions">
+                    <div class="number">
+                        <h1>1</h1>
+                        <div class="local">
+                            <h1>Bela Vista</h1>
+                            <p>Bela Vista</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="number">
+                        <h1>2</h1>
+                        <div class="local">
+                            <h1>Consolação</h1>
+                            <p>Estação Consolação</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div id="mapid"></div>
+            </div>
         </div>
+
     </div>
-    <script src="/scripts/map.js"></script>
+    <script src="../public/scripts/map.js"></script>
 </body>
 </html>
