@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #8c2727;
+    background-repeat: no-repeat;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.all h1 {
+    color: white;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fields {
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+
+form .join-form, .form2 {
+    margin: 0;
+} 
+
+.all .join-form {
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+}
+
+.all .join-form .form1 {
+    margin: 0;
+}
+
+.all .join-form .form1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.all .join-form .form1 input {
+    display: block;
+    height: 30px;
+    border: none;
+    box-shadow: -6px 7px 0px -2px rgba(0,0,0,1);
+}
+
+.all .join-form .form1 + .form1 {
+    margin-left: 25px;
+}
+
+.all form .join-form, .form2 {
+    margin-bottom: 20px;
+}
+
+.all .form2 {
+    display: block;
+}
+
+.all .form2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.all .form2 input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    box-shadow: -6px 7px 0px -2px rgba(0,0,0,1);
+}
+
+.all form button {
+    width: 20%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: -6px 7px 0px -2px rgba(0,0,0,1);
+}
