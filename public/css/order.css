@@ -42,3 +42,23 @@
 .orders-page .order .chunck {
     margin-bottom: 20px;
 }
+
+
+
+@media (max-width: 650px) {
+    .orders-page .order {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .orders-page .order {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .orders-page .order {
+        width: 70%;
+    }
+}

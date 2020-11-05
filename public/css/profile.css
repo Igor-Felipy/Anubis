@@ -66,6 +66,17 @@
     align-items: center;
     justify-content: space-around;
 }
+.form-profile .my_account form .form2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+}
+.form-profile .my_account form .form3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
 
 .form-profile .my_account form .field {
     width: 30rem;
@@ -85,6 +96,9 @@
     margin: 5px;
     text-align: left;
 }
+.form-profile .my_account form .form2 .big-field {
+    width: 30px;
+}
 
 .form-profile .my_account form .form2 .big-field input{
     display: block;
@@ -96,16 +110,7 @@
     display: block;
 }
 
-.form-profile .my_account form .form2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;  
-}
-.form-profile .my_account form .form3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;  
-}
+
 
 .form-profile .my_account form button {
     height: 2rem;
@@ -122,3 +127,64 @@
     margin-top: 100px;
 }
 
+
+
+
+@media (max-width: 900px) {
+    .name-schedules {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) { 
+    .form-profile .my_account {
+        width: 30rem;
+    }
+    .form-profile .my_account .form1{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+    .form-profile .my_account form .field .sub-field input {
+        width: 14rem;
+    }
+    .form-profile .my_account form .form2 .big-field{
+        margin: 10px;
+    }
+    .form-profile .my_account form .form2 .big-field input {
+        width: 14rem;
+    }
+    .form-profile .my_account form .form2 {
+        align-items: left;
+        justify-content: left;
+    }
+    .form-profile .my_account form .form3 {
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+    .form-profile .my_account form button {
+        width: 14rem;
+    }
+    .form-profile .my_account .label {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .form-profile .my_account {
+        width: 25rem;
+    }
+    .field {
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

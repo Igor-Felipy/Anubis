@@ -70,7 +70,7 @@
 }
 
 .descriptions {
-    width: 11vw;
+    width: 20vw;
     height: 60vh;
     background-color: white;
     color: black;
@@ -80,10 +80,11 @@
     width: 100%;
 }
 
-.descriptions .number {
+.descriptions{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: black;
 }
 
@@ -102,4 +103,10 @@
 .map-and-descriptions #mapid {
     width: 30vw;
     height: 60vh;
+}
+
+@media (max-width: 650px) {
+    .order {
+        width: 50%;
+    }
 }
