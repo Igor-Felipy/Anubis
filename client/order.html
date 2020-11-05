@@ -13,23 +13,21 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
     <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/map.css">
+    <link rel="stylesheet" href="../public/css/client-order.css">
 </head>
 <body>
-    <div class="all">
-        <div class="menu">
-            <div class="menu-pages">
-                <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="/client/my_orders.html">MEUS PEDIDOS</a></li>
-                </ul>
-            </div>
-            <div class="menu-profile">
-                <a href="/client/profile.html">I</a>
-            </div>
+    <div class="menu">
+        <div class="menu-pages">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/client/my_orders.html">MEUS PEDIDOS</a></li>
+            </ul>
         </div>
-    
-        <div class="map-page">
+        <div class="menu-profile">
+            <a href="/client/profile.html">I</a>
+        </div>
+    </div>
+        <div class="page">
             <h1>ACOMPANHE SUA ENTREGA</h1>
             <hr>
 
@@ -53,14 +51,12 @@
                     <h3>Valor da entrega:</h3>
                     <p>R$ 10,00</p>
                 </div>
-                <p><a href="">Mais detalhes...</a></p>
             </div>
 
-            
-            <div id="mapid"></div>
-
+            <div class="status">
+                <h1>Status:</h1>
+                <h1>Em Transito...</h1>
+            </div>
         </div>
-    </div>
-    <script src="/scripts/map.js"></script>
 </body>
 </html>

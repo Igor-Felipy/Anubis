@@ -1,0 +1,58 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page h1 {
+    color: white;
+}
+
+.page hr {
+    width: 10%;
+    margin-bottom: 100px;
+}
+
+.page .order {
+    width: 40%;
+    margin-bottom: 25px;
+    background-color: #b0aaa9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 5px;
+}
+
+.page .order h1, p, h3{
+    color: black;           
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+}
+
+.page .order a{
+    text-decoration: none;
+    color: black;
+}
+
+.page .order p {
+    font-size: 15px;
+}
+
+.page .order .chunck {
+    margin-bottom: 20px;
+}
+
+.status {
+    background-color: #b0aaa9;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.status h1 {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
