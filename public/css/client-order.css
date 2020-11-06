@@ -27,7 +27,7 @@
 
 .page .order h1, p, h3{
     color: black;           
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 0px;
 }
 
@@ -53,6 +53,6 @@
 }
 
 .status h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
 }

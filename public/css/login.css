@@ -12,7 +12,7 @@
 }
 
 .login-form * {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .login-form img {
@@ -21,7 +21,7 @@
 }
 
 .login-form h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-login-input input[type=text], input[type=password]{

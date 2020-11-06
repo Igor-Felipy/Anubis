@@ -1,8 +1,0 @@
-rearrumar os arquivos
-client/new_order
-client_register
-user_register
-user/accepted_orders
-colocar os regissters no login 
-arrumar os profile com as pesquisas em comum
-user/arrumar a entrega

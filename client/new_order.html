@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúbis</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/new-order.css">
+    <link rel="stylesheet" href="../public/css/menu.css">
+</head>
+<body>
+    <div class="page-new-order">
+        <div class="menu">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                  <li><a href="../client/my_orders.html">MEUS PEDIDOS</a></li>
+                  <li><a href="../client/new_order.html">NOVO PEDIDO</a></li>
+                  <li><a href="../client/profile.html">PERFIL</a></li>
+                </ul>
+              </div>
+              <div class="menu-bg" id="menu-bg"></div>
+
+        </div>
+        <h1>Novo Envio</h1>
+        <hr>
+        <div class="new-order">
+            <form action="#">
+                <input type="text" placeholder="Nome do produto">
+                <input type="text" placeholder="Valor do produto">
+                <input type="text" placeholder="Local de Retirada">
+                <input type="text" placeholder="Local de Entrega">
+                <input type="text" placeholder="Distância Estimada">
+                <input type="text" placeholder="Valor de Entrega">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../public/scripts/menu.js"></script>
+</body>
+</html>

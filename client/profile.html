@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anúbis</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/profile.css">
+    <link rel="stylesheet" href="../public/css/menu.css">
 </head>
 <body>
     <div class="all">
         <div class="menu">
-            <div class="menu-pages">
-                <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="/client/my_orders.html">MEUS PEDIDOS</a></li>
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                  <li><a href="../client/my_orders.html">MEUS PEDIDOS</a></li>
+                  <li><a href="../client/new_order.html">NOVO PEDIDO</a></li>
+                  <li><a href="../client/profile.html">PERFIL</a></li>
                 </ul>
-            </div>
-            <div class="menu-profile">
-                <a href="/client/profile.html">I</a>
-            </div>
+              </div>
+              <div class="menu-bg" id="menu-bg"></div>
+
         </div>
         
         <div class="pages">       
@@ -94,5 +100,6 @@
         </div>
         
     </div>
+    <script src="../public/scripts/menu.js"></script>
 </body>
 </html>

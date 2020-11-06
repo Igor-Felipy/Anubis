@@ -10,21 +10,26 @@
     />
     <link rel="stylesheet" href="../public/css/style.css" />
     <link rel="stylesheet" href="../public/css/order.css" />
+    <link rel="stylesheet" href="../public/css/menu.css" />
   </head>
   <body>
     <div class="all">
       <div class="menu">
-        <div class="menu-pages">
-          <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="../user/orders.html">PEDIDOS EXPEDIDOS</a></li>
-            <li><a href="../user/accepted_orders.html">PEDIDOS ACEITOS</a></li>
-          </ul>
-        </div>
-        <div class="menu-profile">
-          <a href="../user/profile.html">I</a>
-        </div>
-      </div>
+        <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+              <li><a href="../user/orders.html">PEDIDOS EXPEDIDOS</a></li>
+              <li><a href="../user/accepted_orders.html">PEDIDOS ACEITOS</a></li>
+              <li><a href="../user/profile.html">PERFIL</a></li>
+            </ul>
+          </div>
+          <div class="menu-bg" id="menu-bg"></div>
+
+    </div>
 
       <div class="orders-page">
         <h1>PEDIDOS</h1>
@@ -81,5 +86,6 @@
         </div>
       </div>
     </div>
+    <script src="../public/scripts/menu.js"></script>
   </body>
 </html>

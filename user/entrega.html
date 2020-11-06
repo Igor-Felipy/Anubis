@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anúbis</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -13,21 +13,26 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/menu.css" />
     <link rel="stylesheet" href="../public/css/current_order.css">
 </head>
 <body>
     <div class="all">
         <div class="menu">
-            <div class="menu-pages">
-                <ul>
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="../user/orders.html">PEDIDOS EXPEDIDOS</a></li>
-                    <li><a href="../user/accepted_orders.html">PEDIDOS ACEITOS</a></li>
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                  <li><a href="../user/orders.html">PEDIDOS EXPEDIDOS</a></li>
+                  <li><a href="../user/accepted_orders.html">PEDIDOS ACEITOS</a></li>
+                  <li><a href="../user/profile.html">PERFIL</a></li>
                 </ul>
-            </div>
-            <div class="menu-profile">
-                <a href="../user/profile.html">I</a>
-            </div>
+              </div>
+              <div class="menu-bg" id="menu-bg"></div>
+
         </div>
     
         <div class="map-page">
@@ -70,6 +75,7 @@
         </div>
 
     </div>
+    <script src="../public/scripts/menu.js"></script>
     <script src="../public/scripts/map.js"></script>
 </body>
 </html>
